@@ -14,8 +14,7 @@ def print_lyrics():
         ("I'll leave my heart with your air", 500, 40),
         ("So let me fly with you", 600, 30),
         ("Will you be forever with me?", 700, 50),
-        (" HAPPY BIRTH DAY TASHUUUU",700,50),
-        ("DDUUUMMMMMBBBBBB",400,50),
+       
     ]
 
     for text, line_delay, char_delay in lyrics:
@@ -53,7 +52,7 @@ def txt():
 	pen.setpos(-68, 95) 
 	pen.down() 
 	pen.color('lightgreen') 
-	pen.write("HAPPY BIRTHDAY DUMB", font=( 
+	pen.write("heyyy", font=( 
 	"Verdana", 12, "bold")) 
 
 heart() 
